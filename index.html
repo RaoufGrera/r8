@@ -45,10 +45,64 @@
 
     <!-- Main content goes here -->
     <main>
-        <h2>Welcome students</h2>
-        <p>This is where your main content will go.</p>
-    </main>
+        <section class="welcome-message">
+            <h2>Welcome Students</h2>
+            <p class="intro-text">
+                This is where your main content will go. It could include a brief introduction, important announcements, or any other relevant information for your students.
+            </p>
+        </section>
 
+        <div class="content-container">
+            <!-- Add your dynamic content here -->
+            <article>
+                <h3>Latest News</h3>
+                <p>Keep up with the latest updates and events.</p>
+            </article>
+
+            <aside>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Student Resources</a></li>
+                    <li><a href="#">Course Schedule</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            <aside>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Student Resources</a></li>
+                    <li><a href="#">Course Schedule</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <style>
+                    aside {
+                        background-color: #f4f4f4;
+                        padding: 10px;
+                        margin: 20px 0;
+                        border-radius: 5px;
+                    }
+                    aside h3 {
+                        color: #333;
+                        margin-bottom: 15px;
+                    }
+                    aside ul {
+                        list-style-type: none;
+                        padding: 0;
+                    }
+                    aside ul li {
+                        margin-bottom: 10px;
+                    }
+                    aside ul li a {
+                        text-decoration: none;
+                        color: #0066cc;
+                        transition: color 0.3s ease;
+                    }
+                    aside ul li a:hover {
+                        color: #003366;
+                    }
+                </style>
+            </aside>
+        </div>
+    </main>
     <footer>
         <p>&copy; 2023 My Web App. All rights reserved.</p>
     </footer>
